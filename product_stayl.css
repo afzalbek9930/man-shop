@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #fafafa;
+}
+header nav{
+    background: #000;
+}
+header nav .nash{
+    color: #fff;
+    font-weight: 400;
+font-family: Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+margin-bottom: 0;
+}
+header nav  .phone{
+   color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+header nav .account{
+display: flex;
+}
+header nav .account .dropdown{
+    border-right: 1px #444 solid;
+    border-left: 1px solid #444;
+}
+header nav .account .dropdown .btn{
+color: #fff;
+text-transform: uppercase;
+}
+header nav .account .user{
+    background: transparent;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    padding: 0px 10px;
+}
+header nav .account .user span{
+    color: #666;
+    font-size: 20px;
+    margin-right: 11px;
+    display: inline-block;
+}
+header nav .account .search{
+    background: transparent;
+    border: none;
+    color: #fff;
+    border-right: 1px solid #444;
+    border-left: 1px solid #444;
+    padding:  0 8px  0 6px;
+}
+
+header .menu{
+    background: #fafafa;
+    padding: 20px 0 ;
+}
+header .menu .shop{
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header .menu .navbar .nav-item .nav-link{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 24px;
+}
+header .menu .menu_right .dropdown{
+    border: 1px #d6d6d6 solid;
+
+}
+header .menu .menu_right .dropdown .btn{
+    width: 100%;
+    background: transparent;
+    border: none;
+    color: #949393;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .menu .menu_right .pokup{
+    display: flex;
+    width: 100%;
+    background: transparent;
+    border: 1px #d6d6d6 solid;
+    border-top: none;
+    justify-content: space-between;
+    padding-top:9px ;
+    padding-bottom: 5px;
+   
+}
+header .menu .menu_right .pokup span{
+    color: #b3b3b3;
+    font-size: 15px;
+}
+header .menu .menu_right .pokup .pul{
+    margin-bottom: 0;
+    color: #949393;
+}
+header .menu .navbar .collapse{
+    width: 100%;
+}
